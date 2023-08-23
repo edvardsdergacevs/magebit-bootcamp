@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             AdminSeeder::class,
+            AnimalSeeder::class,
         ]);
 
         User::factory(7)->create();
